@@ -20,11 +20,11 @@ sub-processor, quoted from their own data processing agreements, and how often
 the pages they publish about customer data change. Published by
 [Xither](https://www.xither.com), which keeps dated, hashed copies of those pages.
 
-Exported 2026-09-30. The live, current version is https://www.xither.com/notice-windows.
+Exported 2026-10-01. The live, current version is https://www.xither.com/notice-windows.
 
 ## Files
 
-**`notice_windows.csv`** (and `.jsonl`): 36 vendors whose DPA states a
+**`notice_windows.csv`** (and `.jsonl`): 79 vendors whose DPA states a
 notice window we could quote, shortest first.
 
 | Column | Meaning |
@@ -32,6 +32,7 @@ notice window we could quote, shortest first.
 | vendor | The vendor's name |
 | xither_record | The vendor's page on Xither, with every page we watch and when we read it |
 | window, unit | The number the clause states, in calendar or business days |
+| counts | What the number counts: "objection" (time to object once told), "notice" (notice before the change) or "unstated" (the clause does not settle it) |
 | quote | The clause, verbatim |
 | source_url | The page the quote comes from |
 | read_on | The date we read that copy |
@@ -39,7 +40,7 @@ notice window we could quote, shortest first.
 | how_found | "read by a person" or "found by pattern" |
 
 **`monthly_changes.csv`**: changes we recorded on the pages we watch, by month
-and page type, through 2026-08. We watch 186 vendors. A "recorded"
+and page type, through 2026-09. We watch 187 vendors. A "recorded"
 change is any difference between two readings of a page; "material" is the
 subset our rules flag as changing content rather than layout, dates or
 navigation.
@@ -56,4 +57,4 @@ navigation.
 
 ## Citation
 
-Xither, "AI vendor sub-processor notice windows", 2026-09-30, https://www.xither.com/notice-windows
+Xither, "AI vendor sub-processor notice windows", 2026-10-01, https://www.xither.com/notice-windows
